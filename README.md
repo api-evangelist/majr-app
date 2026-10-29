@@ -64,5 +64,145 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-majr-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://majr.app/
+MAJR provides agent services that expose shared, product‑neutral capabilities such as Dispatch (release‑note generation), AI SEO (search‑engine and AI answer‑engine optimization), and Media Encoding (video, audio, and image processing). These services are offered via a simple MCP‑based HTTP interface with a single bearer‑auth key, enabling developers to integrate powerful media and marketing functions without building them from scratch. The platform is hosted at majr.app and documented across sub‑domains for each service.
+
+**Areas:** Company · AI · Media · SEO · Encoding · Agent Services
+
+## majr-app on APIs.io
+
+Everything profiled for majr-app is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/majr-app/](https://apis.io/providers/majr-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [majr-app Audit API](https://apis.io/apis/majr-app/majr-app-audit-api/) — Fetch one URL (SSRF-guarded) and score its technical SEO + AI-readiness signals.
+- [majr-app Discovery API](https://apis.io/apis/majr-app/majr-app-discovery-api/) — Who this service is and where its contracts live.
+- [majr-app Drafting API](https://apis.io/apis/majr-app/majr-app-drafting-api/) — The capability: dev log in, release-notes Markdown out.
+- [majr-app Encode API](https://apis.io/apis/majr-app/majr-app-encode-api/) — The Encode API from majr-app — 1 operation(s) for encode.
+- [majr-app Generation API](https://apis.io/apis/majr-app/majr-app-generation-api/) — Pure artifact generation — JSON in, artifact out, no fetches, no state.
+- [majr-app Healthz API](https://apis.io/apis/majr-app/majr-app-healthz-api/) — The Healthz API from majr-app — 1 operation(s) for healthz.
+- [majr-app Jobs API](https://apis.io/apis/majr-app/majr-app-jobs-api/) — The Jobs API from majr-app — 1 operation(s) for jobs.
+- [majr-app Uploads API](https://apis.io/apis/majr-app/majr-app-uploads-api/) — The Uploads API from majr-app — 1 operation(s) for uploads.
+- [majr-app Usage API](https://apis.io/apis/majr-app/majr-app-usage-api/) — Your metered usage (drafts + token counts).
+- [majr-app Voice API](https://apis.io/apis/majr-app/majr-app-voice-api/) — Your account's brand-voice floor (composed beneath every draft).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Majr App Webhooks](https://apis.io/asyncapis/majr-app/majr-app-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Majr App Agentic Access](https://apis.io/agentic-access/majr-app/majr-app-agentic-access/)
+
+#### JSON Schema (15)
+
+The data models the API reads and writes.
+
+- [AuditRequest](https://apis.io/schemas/majr-app/majr-app-audit-request/)
+- [AuditResponse](https://apis.io/schemas/majr-app/majr-app-audit-response/)
+- [DraftRequest](https://apis.io/schemas/majr-app/majr-app-draft-request/)
+- [DraftResponse](https://apis.io/schemas/majr-app/majr-app-draft-response/)
+- [EncodeRequest](https://apis.io/schemas/majr-app/majr-app-encode-request/)
+- [EncodeStatus](https://apis.io/schemas/majr-app/majr-app-encode-status/)
+- [HeadRequest](https://apis.io/schemas/majr-app/majr-app-head-request/)
+- [JobState](https://apis.io/schemas/majr-app/majr-app-job-state/)
+- [LlmsTxtRequest](https://apis.io/schemas/majr-app/majr-app-llms-txt-request/)
+- [RobotsRequest](https://apis.io/schemas/majr-app/majr-app-robots-request/)
+- [SitemapRequest](https://apis.io/schemas/majr-app/majr-app-sitemap-request/)
+- [UploadContract](https://apis.io/schemas/majr-app/majr-app-upload-contract/)
+- [UploadRequest](https://apis.io/schemas/majr-app/majr-app-upload-request/)
+- [UsageResponse](https://apis.io/schemas/majr-app/majr-app-usage-response/)
+- [VoiceResponse](https://apis.io/schemas/majr-app/majr-app-voice-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Majr App Context](https://apis.io/jsonld/majr-app/majr-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [majr-app API Rules](https://apis.io/rules/majr-app/majr-app-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Majr App Authentication](https://apis.io/security/majr-app/majr-app-authentication/)
+- [Majr App Domain Security](https://apis.io/security/majr-app/majr-app-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://majr.app/)
+- [Documentation](https://dispatch.majr.app/docs)
+- [Getting started](https://majr.app/quickstart/seo)
+- [Sign up](https://majr.app/keys/)
+- [Changelog](https://majr.app/whats-new)
+- [Terms of service](https://majr.app/terms)
+- [Privacy policy](https://majr.app/privacy)
+
+## API Evangelist rating
+
+**Kin Score 54.9** — strong · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 63.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 34.2 |
+
+**Agent readiness 44.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/majr-app/](https://apis.io/providers/majr-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for majr-app: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/majr-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
